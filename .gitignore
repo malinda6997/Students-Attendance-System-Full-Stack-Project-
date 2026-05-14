@@ -1,0 +1,21 @@
+# Terraform related files
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+_override.tf
+_override.tf.json
+
+# Docker related
+.env
+node_modules/
+dist/
+*.log
+
+# OS related
+.DS_Store
+Thumbs.db
